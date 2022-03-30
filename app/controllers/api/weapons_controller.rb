@@ -34,11 +34,11 @@ class Api::WeaponsController < ApplicationController
   private
 
   def set_knight
-    @knight = knight.find(params[:knight_id])
+    @knight = Knight.find(params[:knight_id])
   end
 
   def set_weapon
-    @weapon = weapon.find(params[:id])
+    @weapon = Weapon.find(params[:id])
   end
 
   def weapon_params

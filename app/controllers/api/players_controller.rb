@@ -11,7 +11,7 @@ class Api::PlayersController < ApplicationController
     if(@player.save)
       render json: @player
     else
-      render json: @player.errors, status 422
+      render json: @player.errors, status: 422
     end
   end
 
