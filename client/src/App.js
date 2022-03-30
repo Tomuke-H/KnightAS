@@ -7,9 +7,9 @@ import Admin from './Admin.js'
 function App() {
   return (
     <>
-      <h1>Hurray!</h1>
+      <h1>Knight Adventure Story</h1>
       <Routes>
-        <Route path="/home" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/admin" element={<Admin/>}/>
         <Route path="/display" element={<Display/>}/>
       </Routes>
