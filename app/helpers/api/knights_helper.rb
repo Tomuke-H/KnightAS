@@ -1,0 +1,2 @@
+module Api::KnightsHelper
+end
