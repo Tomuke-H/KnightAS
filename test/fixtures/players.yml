@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  cc: 1
+  range: 1
+  char: 1
+  focus: 1
+  madness: 1
+  health: MyString
+
+two:
+  name: MyString
+  cc: 1
+  range: 1
+  char: 1
+  focus: 1
+  madness: 1
+  health: MyString
